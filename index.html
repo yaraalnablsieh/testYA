@@ -197,8 +197,26 @@ hr{
        
       flex: 1;
     }
+video {
+  width: 100%;
+  height: auto;
+  max-width: 560px;
+}
 
-  
+ .container {
+  max-width: 560px; 
+  margin: 0 auto;   
+  padding: 0 10px;  
+  text-align: center; 
+}
+
+.container video {
+  width: 100%;      
+  height: auto;     
+  display: block;
+  margin: 20px 0;   
+}
+ 
 
 
 
@@ -220,16 +238,16 @@ hr{
 </div>
 <div class="dow"><a href="">download</a ></div>
 </div>
-
+<div class="container">
 <div class="body">
 <h1>Lobe <span class="span">Tour</span></h1>
 <p>Build your first machine learning model in ten
 minutes. No code or experience required.</p>
-<video width="560" height="355" controls autoplay muted loop>
+<video  width="100%" height="auto" controls autoplay muted loop playsinline>
   <source src="854053-hd_1920_1080_25fps.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+</div>
  <h1>Train your app <br>
 with Lobe</h1>
 
